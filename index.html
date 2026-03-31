@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Norah's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+ 
+  <a class="skip-link" href="#main">Skip to main content</a><!--Accesability so reader skip the heading and logo and dtuff-->
+  
+  <header role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navInner">
+        <a href="index.html" aria-label="Home Logo">
+          <img src="Norah_Logo.png" alt="Norah's logo" height="50"></a> <!--had to put height here, w style only its large-->       
+          
+          <ul class="navLinks">
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="profile.html">My Profile</a></li>
+          <li><a href="contact.html">Contact Me!</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ 
+  <section class="hero" id="main" aria-labelledby="hero-heading"><!--hero = opening page in protofolio-->
+  
+    <div class="decor" aria-hidden="true">
+      <div class="line"></div>
+      <div class="stars">★ ✦ ✷</div>
+      <div class="line"></div>
+    </div>
+ 
+    <div class="heroInner">
+ 
+      <div class="id-card" aria-label="Norah's information card">
+ 
+        <div class="id-card-header">
+          <span class="id-card-YIC">Yanbu Industrial College</span><!--span = in line container -->
+        </div>
+ 
+        <div class="id-card-body">
+ 
+          <div class="id-card-photo-col">
+            <img src="Norah_4311085.jpg" alt="Norah Profile photo" class="id-card-photo">
+          </div>
+ 
+          <div class="id-card-info">
+            <p class="id-card-role">STUDENT</p>
+            <h1 class="id-card-name">Norah Alhosain</h1>
+ 
+            <div class="id-card-line" aria-hidden="true"></div><!--true so screen reader doesn't read it-->
+ 
+            <div class="id-card-row">
+              <span class="id-field-label">STUDENT ID</span>
+              <span class="id-field-value">4311085</span>
+            </div>
+            <div class="id-card-row">
+              <span class="id-field-label">MAJOR</span>
+              <span class="id-field-value">Computer Science</span>
+            </div> 
+            <div class="id-card-row">
+              <span class="id-field-label">COURSE</span>
+              <span class="id-field-value">CS381</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="id-card-footer">
+          <span>Academic Year 2025 – 2026</span>
+          <span>Second semester (472)</span>
+        </div>
+      </div>
+ 
+      <!-- Text next to the card -->
+      <div class="heroText">
+        <span class="heroTag">Student Portfolio</span>
+        <h2 class="heroName" id="hero-heading">
+          Welcome!, I'm <span>Norah Alhosain</span>
+        </h2>
+        <p class="heroDesc">
+          this is my personal academic portfolio!, get to know me and my abilities more throw this website, you can also check my profile and contact me if you want to know more about me or just want to say hi! 
+        </p>
+        <div class="btn-group"><!-- buttons again other than the nav bar for accessibility -->
+          <a href="profile.html" class="btn btn-primary">View My Profile</a>
+          <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="decor" aria-hidden="true">
+      <div class="line"></div>
+      <div class="stars">★ ✦ ✷</div>
+      <div class="line"></div>
+    </div>
+ 
+  </section>
+ 
+
+  <section class="section" aria-labelledby="interests-heading">
+    <div class="pageWrap">
+      <p class="sectionTag">What I Love</p>
+      <h2 class="sectionHeading" id="interests-heading">My Interests & Hobbies</h2>
+ 
+      <div class="cardsRow" role="list">
+        
+        <article class="card" role="listitem">
+          <div class="cardIcon" aria-hidden="true">
+            <span class="material-icons">code</span>
+          </div>
+          <h3>Coding Projects</h3>
+          <p>Ofcourse given my major, I love building side projects and small web apps. I love seeing my ideas coming to life</p>
+        </article>
+ 
+        <article class="card" role="listitem">
+          <div class="cardIcon" aria-hidden="true">
+            <span class="material-icons">palette</span>
+          </div>
+          <h3>Art</h3>
+          <p>Drawing helps me slow down and express what words can't. I find inspiration in everyday life and the art others create</p>
+        </article>
+ 
+        <article class="card" role="listitem">
+          <div class="cardIcon" aria-hidden="true">
+            <span class="material-icons">coffee</span>
+          </div>
+          <h3>Coffee</h3>
+          <p>A good cup of coffee is very important in my daily routine. trying new beans and cafes is something I genuinely enjoy</p>
+        </article>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <section class="section" aria-labelledby="quote-heading">
+    <div class="pageWrap">
+      <p class="sectionTag">Quote</p>
+      <h2 class="sectionHeading" id="quote-heading">A Quote I belive in</h2>
+ 
+      <div class="quoteCard">
+        <blockquote><!--blockquote = quote element-->
+          Life is a series of natural and spontaneous changes. Don't resist them; that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like.</blockquote>
+        <cite>— Laozi</cite>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="section" aria-labelledby="goals-heading">
+    <div class="pageWrap">
+      <p class="sectionTag">My visions</p>
+      <h2 class="sectionHeading" id="goals-heading">Learning Goals</h2>
+ 
+      <div class="cardsRow" role="list">
+ 
+        <article class="card" role="listitem">
+          <div class="cardIcon" aria-hidden="true">
+            <span class="material-icons">travel_explore</span>
+          </div>
+          <h3>Web Development</h3>
+          <p>I'm learning to build websites better. I'm to focus on creating high-performance, accessible, and beautiful sites where the code is just as clean as the design</p>
+        </article>
+ 
+        <article class="card" role="listitem">
+          <div class="cardIcon" aria-hidden="true">
+            <span class="material-icons">precision_manufacturing</span>
+          </div>
+          <h3>AI</h3>
+          <p>I want to do more than just use AI by understanding how it's built from the ground up. I'm focusing my energy on computer vision and natural language processing to build tools that can solve complex, everyday problems in a smarter ways</p>
+        </article>
+ 
+        <article class="card" role="listitem">
+          <div class="cardIcon" aria-hidden="true">
+            <span class="material-icons">lock</span>
+          </div>
+          <h3>Cybersecurity</h3>
+          <p>Understanding how to build secure systems is essential and extremmely important specially in web development. I want to learn ethical hacking and defensive security practices to create software that protects the users</p>
+        </article>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <footer role="contentinfo">
+    <div class="footerInner">
+      <p><strong>Norah Alhosain</strong> - YIC</p>
+      <p><a href="mailto:Y5F4311085@rcjy.edu.sa">Y5F4311085@rcjy.edu.sa</a></p>
+      <p>&copy; 2026 Norah's Academic Portfolio</p><!--&copy; = that copyright circle -->
+    </div>
+  </footer>
+ 
+</body>
+</html>

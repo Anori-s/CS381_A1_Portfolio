@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Norah's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a><!--Accesability so reader skip the heading and logo and dtuff-->
+  
+  <header role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navInner">
+        <a href="index.html" aria-label="Home Logo">
+          <img src="Norah_Logo.png" alt="Norah's logo" height="50"></a> <!--had to put height here, w style only its large-->       
+          
+          <ul class="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">My Profile</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact Me!</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+    <main id="main">
+    <section class="section" aria-labelledby="contact-heading">
+      <div class="pageWrap">
+ 
+        <p class="sectionTag">Reach Out</p>
+        <h1 class="sectionHeading" id="contact-heading">Get In Touch</h1>
+ 
+        <div class="contactLayout">
+
+          <div class="contactDetails" role="region" aria-label="Contact details">
+ 
+            <p>Feel free to reach out for collaboration, questions, or just to say hi!</p>
+ 
+            <div class="contactBox">
+              <div class="cardIcon" aria-hidden="true">
+                <span class="material-icons">mail</span>
+              </div>
+              <div class="contactText">
+                <h4>Email</h4>
+                <p><a href="mailto:Y5F4311085@rcjy.edu.sa">Y5F4311085@rcjy.edu.sa</a></p>
+              </div>
+            </div>
+ 
+            <div class="contactBox">
+              <div class="cardIcon" aria-hidden="true">
+                <span class="material-icons">school</span>
+              </div>
+              <div class="contactText">
+                <h4>Institution</h4>
+                <p>YIC University</p>
+              </div>
+            </div>
+ 
+            <div class="contactBox">
+              <div class="cardIcon" aria-hidden="true">
+                <span class="material-icons">history_edu</span>
+              </div>
+              <div class="contactText">
+                <h4>Department</h4>
+                <p>Computer Science</p>
+              </div>
+            </div>
+ 
+            <div class="contactBox">
+              <div class="cardIcon" aria-hidden="true">
+                <span class="material-icons">badge</span>
+              </div>
+              <div class="contactText">
+                <h4>Student ID</h4>
+                <p>4311085</p>
+              </div>
+            </div>
+ 
+            <div class="contactBox">
+              <div class="cardIcon" aria-hidden="true">
+                <span class="material-icons">code</span>
+              </div>
+              <div class="contactText">
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/Anori-s">Github Account</a></p>
+              </div>
+            </div>
+ 
+          </div>
+ 
+          <div class="messageBox" role="region" aria-label="Contact form">
+            <h3>Send a Message</h3>
+ 
+            <form method="get" action="mailto:Y5F4311085@rcjy.edu.sa" aria-label="Contact form">
+ 
+              <div class="fieldWrap">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Norah Alhosain" required aria-required="true">
+              </div>
+ 
+              <div class="fieldWrap">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="mail@example.com" required aria-required="true">
+              </div>
+ 
+              <div class="fieldWrap">
+                <label for="message">Message</label>
+                <textarea id="message" name="body" placeholder="Write your message here..." required aria-required="true"></textarea>
+              </div>
+ 
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message!
+              </button>
+ 
+            </form>
+          </div>
+ 
+        </div>
+      </div>
+    </section>
+  </main>
+ 
+
+  <footer role="contentinfo">
+    <div class="footerInner">
+      <p><strong>Norah Alhosain</strong> - YIC</p>
+      <p><a href="mailto:Y5F4311085@rcjy.edu.sa">Y5F4311085@rcjy.edu.sa</a></p>
+      <p>&copy; 2026 Norah's Academic Portfolio</p><!--&copy; = that copyright circle -->
+    </div>
+  </footer>
+
+</body>
+</html>
